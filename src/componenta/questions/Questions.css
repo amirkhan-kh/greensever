@@ -1,0 +1,6 @@
+.grid{
+    margin-top: 80px;
+    display: grid;
+    font-family: sans-serif;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,32 @@
+.grid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.card{
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 12px;
+}
+.card img{
+    width: 70px;
+    height: 70px;
+    transition: 0.4s;
+}
+.card:hover  img{
+    transform: scale(110%);
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.card .bio h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card .bio p{
+    font-size: 15px;
+}
